@@ -4,6 +4,7 @@
 
 URL: https://saas-pricing-page-confidence-checklist.vercel.app/
 Source: https://github.com/Turner-Levey/saas-pricing-page-confidence-checklist
+Tiny Tool Town listing: https://www.tinytooltown.com/tools/saas-pricing-page-confidence-checklist/
 License: MIT
 Builder: Turner Levey
 
@@ -12,6 +13,7 @@ Builder: Turner Levey
 - https://saas-pricing-page-confidence-checklist.vercel.app/ - interactive SaaS pricing page confidence checklist
 - https://saas-pricing-page-confidence-checklist.vercel.app/sitemap.xml - sitemap
 - https://saas-pricing-page-confidence-checklist.vercel.app/llms.txt - crawler summary
+- https://www.tinytooltown.com/tools/saas-pricing-page-confidence-checklist/ - public Tiny Tool Town listing
 
 ## Notes
 
