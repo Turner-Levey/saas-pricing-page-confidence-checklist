@@ -1,0 +1,10 @@
+{
+  "name": "saas-pricing-page-confidence-checklist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "No-tracking SaaS pricing page confidence checklist.",
+  "license": "MIT",
+  "scripts": {
+    "check": "node --check script.js && node --check submit-indexnow.mjs"
+  }
+}

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Free SaaS Pricing Page Confidence Checklist</title>
+    <meta
+      name="description"
+      content="Free no-tracking SaaS pricing page checklist for founders reviewing clarity, packaging, proof, objections, risk reversal, and demo friction."
+    >
+    <link rel="canonical" href="https://saas-pricing-page-confidence-checklist.vercel.app/">
+    <meta property="og:title" content="Free SaaS Pricing Page Confidence Checklist">
+    <meta property="og:description" content="Score SaaS pricing page confidence before you send more traffic. No login, no tracking, open source.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://saas-pricing-page-confidence-checklist.vercel.app/">
+    <meta property="og:image" content="https://saas-pricing-page-confidence-checklist.vercel.app/og.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free SaaS Pricing Page Confidence Checklist">
+    <meta name="twitter:description" content="Score SaaS pricing page confidence before you send more traffic.">
+    <meta name="twitter:image" content="https://saas-pricing-page-confidence-checklist.vercel.app/og.svg">
+    <link rel="stylesheet" href="/styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Free SaaS Pricing Page Confidence Checklist",
+        "alternateName": [
+          "SaaS pricing page checklist",
+          "Pricing page confidence checklist",
+          "SaaS pricing page audit"
+        ],
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "SaaS pricing QA",
+        "operatingSystem": "Any",
+        "url": "https://saas-pricing-page-confidence-checklist.vercel.app/",
+        "isAccessibleForFree": true,
+        "creator": {
+          "@type": "Person",
+          "name": "Turner Levey"
+        },
+        "description": "Browser-only checklist for auditing SaaS pricing page clarity, packaging, proof, objections, and conversion risk.",
+        "featureList": [
+          "Score pricing page confidence across focused QA checks",
+          "Flag pricing, packaging, and sales-friction risks",
+          "Copy or export a Markdown and CSV pricing-page review"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">SaaS pricing page checklist</p>
+        <h1>Free SaaS Pricing Page Confidence Checklist</h1>
+      </div>
+      <nav aria-label="Project links">
+        <a href="https://github.com/Turner-Levey/saas-pricing-page-confidence-checklist">Source</a>
+        <a href="/llms.txt">llms.txt</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-strip" aria-label="Score summary">
+        <div class="score-block">
+          <span>Confidence score</span>
+          <strong id="score">0</strong>
+          <small id="score-label">Waiting</small>
+        </div>
+        <div class="summary-grid">
+          <div>
+            <span>Ready checks</span>
+            <strong id="ready-count">0/0</strong>
+          </div>
+          <div>
+            <span>Critical gaps</span>
+            <strong id="gap-count">0</strong>
+          </div>
+          <div>
+            <span>Pricing motion</span>
+            <strong id="motion-label">Self serve</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace" aria-label="Pricing context and checklist">
+        <div class="panel controls">
+          <div class="panel-head">
+            <h2>Context</h2>
+          </div>
+
+          <div class="field-grid">
+            <label class="field">
+              <span>Motion</span>
+              <select id="motion">
+                <option value="self-serve">Self serve</option>
+                <option value="sales-assisted">Sales assisted</option>
+                <option value="enterprise">Enterprise</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Average contract value</span>
+              <select id="acv">
+                <option value="low">Under $2k</option>
+                <option value="mid">$2k to $20k</option>
+                <option value="high">$20k+</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Pricing model</span>
+              <select id="model">
+                <option value="seat">Seat based</option>
+                <option value="usage">Usage based</option>
+                <option value="tiered">Tiered packages</option>
+                <option value="custom">Custom quote</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Page URL</span>
+              <input id="page-url" type="url" placeholder="https://example.com/pricing">
+            </label>
+          </div>
+
+          <div class="panel-head split">
+            <h2>Checks</h2>
+            <button id="reset" class="secondary" type="button">Reset</button>
+          </div>
+          <div id="checklist" class="checklist"></div>
+        </div>
+
+        <div class="panel output-panel">
+          <div class="panel-head">
+            <h2>Review</h2>
+            <span id="review-status">Ready</span>
+          </div>
+          <div id="risk-list" class="risk-list"></div>
+          <label class="field notes-field">
+            <span>Notes</span>
+            <textarea id="notes" rows="6" placeholder="Pricing page evidence, objections, or copy changes"></textarea>
+          </label>
+          <div class="button-row">
+            <button id="copy-report" type="button">Copy Markdown</button>
+            <button id="download-report" class="secondary" type="button">Download Markdown</button>
+            <button id="download-csv" class="secondary" type="button">Download CSV</button>
+          </div>
+          <textarea id="report" class="report" spellcheck="false" aria-label="Pricing page confidence report"></textarea>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>No tracking, no cookies, no analytics, no uploads, no external scripts.</span>
+      <span>Pricing-page QA only; not legal, financial, or tax advice.</span>
+    </footer>
+
+    <script src="/script.js" defer></script>
+  </body>
+</html>

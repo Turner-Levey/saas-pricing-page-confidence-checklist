@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://saas-pricing-page-confidence-checklist.vercel.app/sitemap.xml

@@ -1,0 +1,36 @@
+# Free SaaS Pricing Page Confidence Checklist
+
+> Browser-only SaaS pricing page confidence checklist for reviewing pricing clarity, plan packaging, proof, objections, risk reversal, and conversion friction.
+
+URL: https://saas-pricing-page-confidence-checklist.vercel.app/
+Source: https://github.com/Turner-Levey/saas-pricing-page-confidence-checklist
+License: MIT
+Builder: Turner Levey
+
+## Pages
+
+- https://saas-pricing-page-confidence-checklist.vercel.app/ - interactive pricing page confidence checklist
+- https://saas-pricing-page-confidence-checklist.vercel.app/sitemap.xml - sitemap
+- https://saas-pricing-page-confidence-checklist.vercel.app/robots.txt - robots policy
+
+## Tool Claims
+
+- No signup.
+- No cookies.
+- No analytics or beacons.
+- No uploads or network calls.
+- No external scripts.
+- No browser storage.
+- Open source under MIT.
+
+## Search Intent
+
+- SaaS pricing page checklist
+- pricing page audit checklist
+- SaaS pricing page confidence
+- pricing page conversion checklist
+- SaaS pricing page QA
+
+## Caveat
+
+Pricing-page QA only. Not legal, financial, or tax advice.

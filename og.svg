@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">SaaS Pricing Page Confidence Checklist</title>
+  <desc id="desc">Social preview for a no-tracking SaaS pricing page confidence checklist.</desc>
+  <rect width="1200" height="630" fill="#f6f8f5"/>
+  <rect x="74" y="70" width="1052" height="490" rx="24" fill="#ffffff" stroke="#d9e2db" stroke-width="3"/>
+  <text x="118" y="150" fill="#116a4b" font-family="Arial, sans-serif" font-size="30" font-weight="700">Free SaaS Pricing Page Checklist</text>
+  <text x="118" y="232" fill="#17211b" font-family="Arial, sans-serif" font-size="68" font-weight="900">Score pricing confidence</text>
+  <text x="118" y="304" fill="#17211b" font-family="Arial, sans-serif" font-size="68" font-weight="900">before more traffic</text>
+  <text x="118" y="382" fill="#5c6a62" font-family="Arial, sans-serif" font-size="28" font-weight="600">Clarity, packaging, proof, objections, and sales friction.</text>
+  <g transform="translate(118 440)">
+    <rect width="190" height="58" rx="12" fill="#e8f2ed"/>
+    <text x="24" y="38" fill="#116a4b" font-family="Arial, sans-serif" font-size="22" font-weight="800">No tracking</text>
+  </g>
+  <g transform="translate(330 440)">
+    <rect width="156" height="58" rx="12" fill="#fff2ea"/>
+    <text x="24" y="38" fill="#ad4f1a" font-family="Arial, sans-serif" font-size="22" font-weight="800">No login</text>
+  </g>
+  <g transform="translate(508 440)">
+    <rect width="196" height="58" rx="12" fill="#e8f2ed"/>
+    <text x="24" y="38" fill="#116a4b" font-family="Arial, sans-serif" font-size="22" font-weight="800">Open source</text>
+  </g>
+  <circle cx="960" cy="254" r="112" fill="#116a4b"/>
+  <text x="960" y="232" fill="#ffffff" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="800">Pricing</text>
+  <text x="960" y="282" fill="#ffffff" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="800">QA</text>
+</svg>
